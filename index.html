@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Sosial Media</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+        #video-background {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -1;
+        }
+        #profile {
+            text-align: center;
+            padding-top: 100px;
+            color: #fff;
+            z-index: 1;
+            position: relative;
+        }
+        #profile img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+        }
+        #profile h1 {
+            font-size: 2em;
+        }
+        #social-links {
+            text-align: center;
+            margin-top: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        #social-links a {
+            color: #000;
+            text-decoration: none;
+            background-color: white;
+            margin-right: 8px;
+            font-size: 1.1em;
+            padding: 4px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+        }
+        #social-links a svg {
+            margin-right: 5px;
+        }
+        nav {
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            z-index: 999;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 1.2em;
+        }
+        .content {
+            padding: 15px;
+            color: #fff;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop id="video-background">
+        <source src="background-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <nav>
+        <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=25&pause=1000&color=F7F7F7&random=false&width=435&lines=HI!WELCOME+TO+MY+PROFILE;ALL+++ABOUT+++PAINTECH+++VPN+" alt="Typing SVG" /></a>
+    </nav>
+    <div id="profile">
+        <img src="IMG_20240114_012815_185.jpg" alt="Profile Picture">
+        <h1>Pain Tech</h1>
+        <div id="social-links">
+            <a href="https://t.me/paintechvpn"><i data-feather="message-circle"></i> Telegram</a>
+            <a href="https://www.facebook.com/paintechvpn"><i data-feather="facebook"></i> Facebook</a>
+            <a href="https://wa.me/6281249063560"><i data-feather="message-square"></i> WhatsApp</a>
+            <!-- Tambahkan link sosial media lainnya sesuai kebutuhan -->
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script>
+        feather.replace();
+    </script>
+    <div class="content" id="about">
+        <h2>About Me</h2>
+        <p>Saya adalah seseorang yang sering disebut sebagai pemalas. Saya lebih suka bersantai daripada melakukan aktivitas yang membutuhkan banyak energi. </p>
+    </div>
+    <div class="content" id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: mr.ryukoo@gmail.com</p>
+        <p>Phone: +6281249063560</p>
+    </div>
+</body>
+</html>
