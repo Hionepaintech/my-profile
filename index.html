@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.css">
     <style>
         body {
-            margin: 0;
+            margin: 1px;
             padding: 0;
+            height: 20px;
             font-family: Arial, sans-serif;
             overflow: hidden;
         }
@@ -78,6 +79,20 @@
             position: relative;
             z-index: 1;
         }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: rgba(255, 255, 255, 0.7); 
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 5px;
+            text-align: left;
+            color: #000; 
+        }
+        th {
+            background-color: #f2f2f2;
+        }
     </style>
 </head>
 <body>
@@ -91,25 +106,56 @@
     <div id="profile">
         <img src="IMG_20240114_012815_185.jpg" alt="Profile Picture">
         <h1>Pain Tech</h1>
+    </div>
+    <div class="content" id="premium-offer">
+        <h2>VPN TUNNELING PREMIUM</h2>
+        <h5>SSH - V2RAY - X-RAY - NOOBZVPN</h5>
+        <table>
+            <thead>
+                <tr>
+                    <th>ISP</th>
+                    <th>Server</th>
+                    <th>Expired</th>
+                    <th>Harga</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>VULTR</td>
+                    <td>Singapore</td>
+                    <td>30 Days</td>
+                    <td>10.000</td>
+                </tr>
+                <tr>
+                    <td>BIZNET GIO</td>
+                    <td>Indonesia</td>
+                    <td>30 Days</td>
+                    <td>12.000</td>
+                </tr>
+                <tr>
+                    <td>DIGITALOCEAN</td>
+                    <td>Singapore</td>
+                    <td>30 Days</td>
+                    <td>10.000</td>
+                </tr>
+            </tbody>
+        </table>
+        <h5>All akun not multiple login allowed max login ip 2 
+        and Not allowed for hacking, DDoS Torrent Carding or so on which can cause server problems. 
+        </h5>
+    </div>
+    <div class="content" id="contact">
+        <h2>Hubungi Kami</h2>
         <div id="social-links">
             <a href="https://t.me/paintechvpn"><i data-feather="message-circle"></i> Telegram</a>
             <a href="https://www.facebook.com/paintechvpn"><i data-feather="facebook"></i> Facebook</a>
             <a href="https://wa.me/6281249063560"><i data-feather="message-square"></i> WhatsApp</a>
-            <!-- Tambahkan link sosial media lainnya sesuai kebutuhan -->
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
     <script>
         feather.replace();
     </script>
-    <div class="content" id="about">
-        <h2>About Me</h2>
-        <p>Saya adalah seseorang yang sering disebut sebagai pemalas. Saya lebih suka bersantai daripada melakukan aktivitas yang membutuhkan banyak energi. </p>
-    </div>
-    <div class="content" id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: mr.ryukoo@gmail.com</p>
-        <p>Phone: +6281249063560</p>
-    </div>
 </body>
-</html>
+    </html>
+    
